@@ -35,6 +35,10 @@ Um  arquivo temporário  é um **arquivo criado para armazenar informações tem
 
 Um exemplo de uso: Um software de imagens, onde é possível alterar as propriedaes da imagem (contraste, brilho, cor, ...), no qual cada alteração de propriedade é salvo em um arquivo temporário, permitindo ctrl+z e ctrl+y.
 
+A templib possui um  mecanismo inteligente  para decidir se um arquivo deve ser armazenado em **memória (BytesIO)** ou em um **arquivo (tempfile)**.
+
+ <img alt="Tempfile - STF" title="#STF" src="./assets/stf.png" />
+
 ## ✍️  Biblioteca utilizadas
 
  - **[Tempfile](https://docs.python.org/3/library/tempfile.html)**
