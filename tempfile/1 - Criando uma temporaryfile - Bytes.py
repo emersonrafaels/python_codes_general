@@ -1,6 +1,14 @@
+import os
+import sys
+from pathlib import Path
 from tempfile import TemporaryFile
 
-from UTILS.base64_encode_decode import image_to_base64
+sys.path.append(str(Path(os.path.dirname(__file__))))
+
+try:
+    from UTILS.base64_encode_decode import image_to_base64
+except Exception as ex:
+   raise Exception(ex)
 
 input_image = r'C:\Users\Emerson\Desktop\Analytics\MATERIAIS POR TEMA\OCR\IMAGENS\A-comparative-study-of-the-OCR-systems-using-color-and-gray-scale-images-with-or-without.png'
 
