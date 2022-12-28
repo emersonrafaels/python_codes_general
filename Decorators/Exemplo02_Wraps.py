@@ -2,28 +2,20 @@ from datetime import datetime
 from time import sleep
 from functools import wraps
 
-
-def medidor_de_tempo(func):
-
-    @wraps(func)
-    def aninhada(*args, **kwargs):
-        tempo_inicial = datetime.now()
-
-        resultado = func(*args, **kwargs)
-
-        tempo_final = datetime.now()
-        tempo = tempo_final - tempo_inicial
-        print(f'{func.__name__} demorou {tempo.total_seconds()} segundos.')
-
-        return resultado
-
-    return aninhada
+from medidor_de_tempo import medidor_de_tempo
 
 
 @medidor_de_tempo
 def delay(secs):
-    """Bota o código para dormir por `secs`."""
+
+    """
+
+        A FUNÇÃO REALIZA O SLEEP DE X SECS.
+
+    """
+
     sleep(secs)
+
     return secs
 
 
