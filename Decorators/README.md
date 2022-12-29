@@ -62,7 +62,23 @@ A festa acabou! =[
 
 - Os decoradores
 
+A adição de decoradores se deu através da Pep 318 (Python Enhancement Proposal - Proposta de melhoria na linguagem Python), que propôs a adição dos decorators ao Python.
 
+A primeira função para entender os decorators é:
+
+```
+def decorator(funcao):
+
+    def wrapper():
+    
+        print ("Estou antes da execução da função passada como argumento")
+        
+        funcao()
+        
+        print ("Estou depois da execução da função passada como argumento")
+
+    return wrapper
+```
 
 ## 🛠  Tecnologias
 
