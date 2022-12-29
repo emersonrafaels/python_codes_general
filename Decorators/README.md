@@ -34,7 +34,7 @@ Funções são trechos de códigos que recebem parâmetros, realizam operações
 algum valor ou conjunto de valores. As **funções podem ser utilizadas como argumentos ou
 retornos de funções**, ou seja, são conhecidas como **objetos de primeira ordem**.
 
-1. Nested functions
+- Nested functions
 
 Nested functions (funções aninhadas) são funções que estão dentro de funções, e nesse caso, estamos apenas no escopo da função 'de fora'.
 
@@ -59,6 +59,10 @@ Estou de fora =[
 Estamos dentro! Uhullll!
 A festa acabou! =[
 ```
+
+- Os decoradores
+
+
 
 ## 🛠  Tecnologias
 
