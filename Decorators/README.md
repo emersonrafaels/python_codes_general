@@ -27,7 +27,38 @@
 
 ## 💻 Sobre Decorators
 
-Um  
+O conceito de decorator preve uma maneira de alterar uma função, sem necessariamente pre-
+cisar alterá-la.
+
+Funções são trechos de códigos que recebem parâmetros, realizam operações e podem retornar
+algum valor ou conjunto de valores. As **funções podem ser utilizadas como argumentos ou
+retornos de funções**, ou seja, são conhecidas como **objetos de primeira ordem**.
+
+1. Nested functions
+
+Nested functions (funções aninhadas) são funções que estão dentro de funções, e nesse caso, estamos apenas no escopo da função 'de fora'.
+
+```
+def party():
+    print("Estou de fora =[")
+
+    def start_party():
+        return "Estamos dentro! Uhullll!"
+
+    def finish_party():
+        return "A festa acabou! =[")
+
+    print(start_party())
+    print(finish_party())
+```
+
+Dessa forma, caso você chame a função party(), sua saída será:
+
+```
+Estou de fora =[
+Estamos dentro! Uhullll!
+A festa acabou! =[
+```
 
 ## 🛠  Tecnologias
 
