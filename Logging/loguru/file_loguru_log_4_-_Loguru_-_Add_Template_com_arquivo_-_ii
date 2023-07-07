@@ -1,0 +1,24 @@
+07/07/2023 - INFO - Logando INFO
+07/07/2023 - WARNING - Logando WARNING
+07/07/2023 - ERROR - Logando ERROR
+07/07/2023 - CRITICAL - Logando CRITICAL
+07/07/2023 15:31:03 - INFO - Logando INFO
+07/07/2023 15:31:03 - WARNING - Logando WARNING
+07/07/2023 15:31:03 - ERROR - Logando ERROR
+07/07/2023 15:31:03 - CRITICAL - Logando CRITICAL
+07/07/2023 15:31:28 - INFO - 4 - Loguru - Add Template com arquivo - ii.py - Logando INFO
+07/07/2023 15:31:28 - WARNING - 4 - Loguru - Add Template com arquivo - ii.py - Logando WARNING
+07/07/2023 15:31:28 - ERROR - 4 - Loguru - Add Template com arquivo - ii.py - Logando ERROR
+07/07/2023 15:31:28 - CRITICAL - 4 - Loguru - Add Template com arquivo - ii.py - Logando CRITICAL
+07/07/2023 15:37:19 - INFO - [4 - Loguru - Add Template com arquivo - ii.py] - Logando INFO
+07/07/2023 15:37:19 - WARNING - [4 - Loguru - Add Template com arquivo - ii.py] - Logando WARNING
+07/07/2023 15:37:19 - ERROR - [4 - Loguru - Add Template com arquivo - ii.py] - Logando ERROR
+07/07/2023 15:37:19 - CRITICAL - [4 - Loguru - Add Template com arquivo - ii.py] - Logando CRITICAL
+07/07/2023 15:38:08 - INFO - [4 - Loguru - Add Template com arquivo - ii.py] - Logando INFO
+07/07/2023 15:38:08 - WARNING - [4 - Loguru - Add Template com arquivo - ii.py] - Logando WARNING
+07/07/2023 15:38:08 - ERROR - [4 - Loguru - Add Template com arquivo - ii.py] - Logando ERROR
+07/07/2023 15:38:08 - CRITICAL - [4 - Loguru - Add Template com arquivo - ii.py] - Logando CRITICAL
+07/07/2023 15:39:55 - INFO - [4 - Loguru - Add Template com arquivo - ii.py] - Logando INFO
+07/07/2023 15:39:55 - WARNING - [4 - Loguru - Add Template com arquivo - ii.py] - Logando WARNING
+07/07/2023 15:39:55 - ERROR - [4 - Loguru - Add Template com arquivo - ii.py] - Logando ERROR
+07/07/2023 15:39:55 - CRITICAL - [4 - Loguru - Add Template com arquivo - ii.py] - Logando CRITICAL

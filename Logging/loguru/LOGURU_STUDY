@@ -1,0 +1,8 @@
+07/07/2023 15:45:48 - INFO - [5 - Loguru - Use configure logging.py] - Logando INFO
+07/07/2023 15:45:48 - WARNING - [5 - Loguru - Use configure logging.py] - Logando WARNING
+07/07/2023 15:45:48 - ERROR - [5 - Loguru - Use configure logging.py] - Logando ERROR
+07/07/2023 15:45:48 - CRITICAL - [5 - Loguru - Use configure logging.py] - Logando CRITICAL
+07/07/2023 15:46:00 - INFO - [5 - Loguru - Use configure logging.py] - Logando INFO
+07/07/2023 15:46:00 - WARNING - [5 - Loguru - Use configure logging.py] - Logando WARNING
+07/07/2023 15:46:00 - ERROR - [5 - Loguru - Use configure logging.py] - Logando ERROR
+07/07/2023 15:46:00 - CRITICAL - [5 - Loguru - Use configure logging.py] - Logando CRITICAL
